@@ -19,7 +19,7 @@ This is an instagram bot for demonstration purposes, it does the following:
 ### Image Posting
 
 
-- the bot will post an image on each scheduled time, the description will be the original page title plus the chosen hashtag plus some related hashtag
+the bot will post an image on each scheduled time, the description will be the original page title plus the chosen hashtag plus some related hashtag
 
 ### Log on Twitter
 
@@ -28,8 +28,11 @@ The bot will tweet whenever it follows an user, sleep after some follows, post a
 # Usage
 
 phase 1:
+
 - choose images to post with the chrome extension, right click on it -> Gram It Later -> select the hashtag
+
 phase 2:
+
 - run python bot/main.py
 - check your twitter account or your terminale
 
