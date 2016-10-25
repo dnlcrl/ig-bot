@@ -1,0 +1,6 @@
+.DS_Store
+*.pyc
+ig/*
+following
+hashtags
+relatedhashtags
