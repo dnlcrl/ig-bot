@@ -2,7 +2,7 @@
 
 # ig-bot 
 
-## Python3 Instagram grey hat bot (for demonstration purposes only).
+## Python3 Instagram grey hat bot (for demonstration purposes only). It is not meant to be used 
 
 This is an instagram bot for demonstration purposes, it does the following:
 
@@ -60,6 +60,17 @@ phase 2:
 
 because I love coding and automating things.
 
-# Need Help?
+# License
 
-Drop me a line: [@dnlcrl](http://twitter.com/dnlcrl)
+MIT
+
+# Terms and conditions
+
+- You will NOT use this API for marketing purposes (spam, massive sending...).
+- We do NOT give support to anyone that wants this API to send massive messages or similar.
+- We reserve the right to block any user of this repository that does not meet these conditions.
+
+## Legal
+
+This code is in no way affiliated with, authorized, maintained, sponsored or endorsed by Instagram or any of its affiliates or subsidiaries. This is an independent and unofficial API. Use at your own risk.
+
