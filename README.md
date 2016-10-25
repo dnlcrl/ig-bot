@@ -66,8 +66,10 @@ MIT
 
 # Terms and conditions
 
-- You will NOT use this API for marketing purposes (spam, massive sending...).
-- We do NOT give support to anyone that wants this API to send massive messages or similar.
+- This bot is for demonstration purposes only.
+- Instagram-API-Python doesn't meant to be used as bots.
+- You will NOT use this bot for marketing purposes (spam, massive sending...).
+- We do NOT give support to anyone that wants this bot to send massive messages or similar.
 - We reserve the right to block any user of this repository that does not meet these conditions.
 
 ## Legal
