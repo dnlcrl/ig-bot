@@ -25,9 +25,7 @@ the bot will post an image on each scheduled time, the description will be the o
 
 The bot will tweet whenever it follows an user, sleep after some follows, post an image or when it crash.
 
-<center>
-![I heard you like bots](doc/dawg.jpg)
-</center>
+![I heard you like bots](doc/dawg.jpg){ float: center; }
 
 # Usage
 
