@@ -116,7 +116,7 @@ def post_updte():
         try:
             ig.uploadPhoto(fname, caption)
             os.remove(_dir + g)
-            api.update_status(status='%s: 📸' % datetime.now())
+            api.update_status(status='%s: Picture uploaded!' % datetime.now())
         except Exception as e:
             import pdb
             pdb.set_trace()
@@ -151,7 +151,7 @@ def like_and_follow():
             for post_id in _ids:
                 ig.like(post_id)
                 print('Post ', post_id, ' liked!')
-                #.update_status(status='%s: 👍' % datetime.now())
+                #.update_status(status='%s: Media liked!' % datetime.now())
                 sleep(about_a_second())
             ig.follow(user_id)
             following.append(user_id)
@@ -160,7 +160,7 @@ def like_and_follow():
 
             print('User ', user_id, ' followed!')
             try:
-                api.update_status(status='%s: 👣' % datetime.now())
+                api.update_status(status='%s: User followed!' % datetime.now())
             except Exception as e:
                 print('Tweepy error:')
                 print(e)
@@ -169,7 +169,7 @@ def like_and_follow():
             sleep(about_a_minute() * 0.75)
     if app['count'] >= app['folbeforesleep']:
         app['folbeforesleep'] = randint(18, 22)
-        api.update_status(status='%s: 😴' % datetime.now())
+        api.update_status(status='%s: Going to sleep!' % datetime.now())
         print('sleeping an hour or so..')
         sleep(about_an_hour())
 
@@ -183,7 +183,7 @@ def main():
             like_and_follow()
 
         except Exception as e:
-            api.update_status(status='%s: 🔥🔥🔥' % datetime.now())
+            api.update_status(status='%s: Bot Crashed!!!' % datetime.now())
             raise e
 
 if __name__ == '__main__':
