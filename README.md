@@ -40,7 +40,7 @@ phase 1:
 phase 2:
 
 - run python bot/main.py
-- check your twitter account or your terminale
+- check your twitter account or your terminal
 
 # Setup
 
