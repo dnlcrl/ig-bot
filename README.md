@@ -10,9 +10,9 @@ This is an instagram bot for demonstration purposes, it does the following:
 
 - select a favourite hashtag
 - search for medias with that hashtag
-- for each found recent media (unless ~20 people are followed)
+- for each found recent media (unless ~20 people get followed)
 	- if the author has less than FOLLOWERS_THRESHOLD followers
-		- like its most recents medias (~10)
+		- like its most recent medias (~10)
 		- follow that user
 - sleep an hour circa
 
@@ -23,7 +23,7 @@ the bot will post an image on each scheduled time, the description will be the o
 
 ### Log on Twitter
 
-The bot will tweet whenever it follows an user, sleep after some follows, post an image or when it crash.
+The bot will tweet whenever it follows a user, sleep after some follows, post an image or when it crash.
 
 
 <div align="center" markdown="1"> 
